@@ -1,0 +1,21 @@
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<WebView
+    android:id="@+id/resource_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.tcw.libraryresources.ResourceDetailFragment" />
+    <ProgressBar
+        android:id="@+id/pbHeaderProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        >
+    </ProgressBar>
+</FrameLayout>
+
